@@ -3,8 +3,7 @@ body {
     display: flex;
     flex-direction: column;
     background-color: #1F2937;
-    padding-left: 10px;
-    padding-right: 10px;
+    margin: 0;
 }
 
 .main-text{
@@ -22,10 +21,15 @@ body {
 
 .top-full {
     display: flex;
-    align-items: center;
+    align-items: flex-end;
     justify-content: space-around;
+    padding-bottom: 80px;
+    margin: 0 20px;
 }
 
+.top-full > img {
+    border-style: none;
+}
 .main-p{
     color: #E5E7EB;
     font-size: 18px;
@@ -35,7 +39,7 @@ body {
 .top-button{
     background-color: #3882F6;
     border-radius: 12px;
-    width: 150px;
+    width: 130px;
     height: 40px;
     font-size: 18px;
     color: aliceblue;
@@ -45,7 +49,7 @@ body {
 .navigation {
     display: flex;
     align-items: center;
-    justify-content: space-between;
+    justify-content: space-around;
     padding: 0 30px;
 }
 
@@ -71,4 +75,62 @@ ul {
 
 img {
     flex: none;
+}
+
+.background-middle {
+    background-color: #F9FAF8;
+}
+
+.illustration-row{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 80px;
+}
+
+figcaption {
+    max-width: 190px;
+    text-align: center;
+}
+
+.pic1, .pic2, .pic3, .pic4 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+img {
+    border-style: solid;
+    border-color: #3882F6;
+    border-radius: 12px;
+}
+
+.sri {
+    text-align: center;
+    font-size: 36px;
+    font-weight: bolder;
+    color: #1F2937;
+}
+
+.iquote {
+    background-color: #E5E7EB;
+    padding: 100px 100px;
+    font-size: 36px;
+    font-style: italic;
+    color: #1F2937;
+    font-weight: lighter;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.iquote > p {
+    max-width: 800px;
+    margin-bottom: 0;
+}
+
+.thor{
+    font-size: 16px;
+    font-weight: bold;
+    font-style: normal;
+    margin-top: 0;
 }
