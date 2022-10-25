@@ -133,4 +133,49 @@ img {
     font-weight: bold;
     font-style: normal;
     margin-top: 0;
+    margin-left: 500px;
+}
+
+.blue {
+    display: flex;
+    background-color: #3882F6;
+    margin: 50px 100px;
+    border-radius: 12px;
+    align-items: center;
+    color: #E5E7EB;
+    padding: 25px 50px;
+    gap: 100px;
+    justify-content: center;
+}
+
+.blue > div > h1 {
+    font-size: 24px;
+    color: #F9FAF8;
+}
+
+.blue > div > p {
+    margin-top: 5px;
+}
+
+.blue > div > h1 {
+    margin-bottom: 5px;
+}
+
+.b-button {
+    background-color: #3882F6;
+    border-radius: 12px;
+    width: 130px;
+    height: 40px;
+    font-size: 18px;
+    color: aliceblue;
+    font-weight: bold;
+    border-color: #F9FAF8;
+    border-style: solid;
+}
+
+.footer {
+    display: flex;
+    justify-content: center;
+    color: #E5E7EB;
+    font-size: 18px;
 }
